@@ -17,6 +17,6 @@ Im 29 years old and i like watching anime and play video games.
 
 ## Languages ##
 
-* English - main language (C1)
-* Russian - secondary language
+* Russian - main language
+* English - secondary language (C1)
 * Japanese - JPLT 3
