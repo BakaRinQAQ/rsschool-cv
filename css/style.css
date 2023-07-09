@@ -8,8 +8,9 @@ body {
     margin: auto 80px;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
     word-spacing: 5px;
-    background-color: pink;
+    background-color: #c5c6c7;
 }
 
 .wrapper {
@@ -23,7 +24,7 @@ body {
 .profile_pic img {
     width: 200px;
     height: 200px;
-    border: 2px solid #fe5efe;
+    border: 2px solid #66fcf1;
     border-radius: 25%;
     box-shadow: 1px 1px 5px black;
 }
@@ -38,9 +39,9 @@ body {
     padding: 20px;
     align-items: center;
     justify-content: space-around;
-    border: 4px solid #fe5efe;
+    border: 4px solid #66fcf1;
     border-radius: 100px 100px 15px 15px;
-    background-color: #d4a5ca;
+    background-color: #45a29e;
     box-shadow: 1px 1px 5px black;
 }
 
@@ -61,8 +62,8 @@ body {
     padding: 40px;
     width: 40%;
     list-style-position: inside;
-    background-color: #d4a5ca;
-    border: 4px solid #fe5efe;
+    background-color: #45a29e;
+    border: 4px solid #66fcf1;
     border-radius: 15px;
     box-shadow: 1px 1px 5px black;
 }
@@ -77,20 +78,43 @@ main h3 {
     transform: translate(0, -50%);
     text-align: center;
     text-transform: uppercase;
+    background-color: #66fcf1;
+    border-radius: 15px;
 }
 
 section {
     margin-top: 60px;
 }
 
+.contacts ul {
+    list-style-type: none;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+  }
+
+.contacts li img {
+    vertical-align: middle;
+}
+  
+.contacts li p {
+    display: inline;
+    vertical-align: middle;
+}
 
 .right_column {
     margin: 5px;
     padding: 40px;
     width: 60%;
     list-style-position: inside;
-    background-color: #d4a5ca;
-    border: 4px solid #fe5efe;
+    background-color: #45a29e;
+    border: 4px solid #66fcf1;
     border-radius: 15px;
     box-shadow: 1px 1px 5px black;
 }
@@ -105,9 +129,9 @@ footer {
     padding: 10px 30px 3px 30px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #fe5efe;
+    border: 1px solid #66fcf1;
     border-radius: 15px;
-    background-color: rgb(154, 99, 161);
+    background-color: #182f33;
     box-shadow: 1px 1px 5px black;
 }
 
